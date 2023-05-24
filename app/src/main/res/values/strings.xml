@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Foto</string>
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_eraser_mode">Eraser Mode</string>
+    <string name="label_text">Text</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_adjust">Adjust</string>
+    <string name="msg_save_image">Are you want to exit without saving image?</string>
+    <string name="msg_save_image2">Are you want to exit without saving image?</string>
+
+    <string name="msg_bg_remove">Do you want to remove the background?</string>
+    <string name="msg_bg_removeWarning">If you want a full size logo, press and hold on that plus icon and then remove the background</string>
+   <string name="msg_sorry_camera">We\'re sorry the camera quality is low, we\'ll fix it in the next update or in the future</string>
+    <string name="FirstTime_ad_dialog">This ad is shown only once and will not be shown again</string>
+    <string name="facebook_app_id">714769789425895</string>
+    <string name="fb_login_protocol_scheme">fb714769789425895</string>
+
+
+
+    <string name="app_names" />
+    <string name="admob_app_id">ca-app-pub-9050627984729069~7856613605</string>
+    <string name="signin">459930688542-taur41toirq1velncjc8u41534ubffhh.apps.googleusercontent.com</string>
+
+    <!-- p1 -->
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+
+    <string name="rate">Rate</string>
+    <string name="if_you_like_the_app_please_do_rate_it">If you like the app, please do rate it.</string>
+    <string name="changelog">Changelog</string>
+    <string name="licenses">Licenses</string>
+    <string name="developer">Developer</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_place_of_living">Your Place of Living</string>
+    <string name="follow_on_fb">Follow on Facebook</string>
+    <string name="follow_on_insta">Follow on Instagram</string>
+    <string name="follow_on_twitter">Follow on Twitter</string>
+    <string name="more_apps">More Apps</string>
+    <string name="support">Support</string>
+    <string name="report_bugs_feedback">Report Bugs/Feedback</string>
+    <string name="report_bugs_or_request_new_features">Report Bugs or request new features.</string>
+    <string name="translators">Translators</string>
+    <string name="translators_who_helped_in_translating_the_app">Translators who helped in translating the App.</string>
+    <string name="donate">Donate</string>
+    <string name="if_you_think_i_deserve_to_get_paid_for_my_work_you_can_leave_me_a_few_dollars_here">If you think, I deserve to get paid for my work, you can leave me a few dollars here.</string>
+    <string name="your_description">Your Description</string>
+    <string name="your_role">Your Role</string>
+    <string name="google_plus">google plus</string>
+    <string name="github">github</string>
+    <string name="apps">apps</string>
+    <string name="about">About Foto</string>
+    <string name="developers">Developers</string>
+    <string name="twitter">Twitter</string>
+    <string name="follow_us">Follow us</string>
+    <string name="PPLCY">Privacy Policy</string>
+    <string name="TOU">Terms of Use</string>
+    <string name="VSN">Version</string>
+    <string name="VSNC">1.0</string>
+    <string name="CS">Contact Support</string>
+    <string name="RUS">Rate Us</string>
+
+    <string name="WAR">Write a Review</string>
+    <string name="Share">Share</string>
+    <string name="TOUFT">BY REGISTERING YOU AGREE TO OUR</string>
+
+
+    <string name="desc">I am Student, pursuing Information Technology and an Android Enthusiast and Developer.\nI have developed this About Screen and Many Other Apps on Google Play Store which you can find more about by Clicking MY APPS.\nYou can also check my other Projects on Github.\n\nDesigned and Developed by:\n<b>Prasad Shirvandkar</b></string>
+    <string name="msg_camera_dialog">sorry</string>
+    <string  name="EVL" >"A verification link will be send to your email address</string>
+    //AD UNIT
+   <!-- <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+    <!-- <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>-->
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ProfileActivity"
+    android:background="@color/profileBackground">
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/profilePrimaryDark"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleTextAppearance="@style/TransparentText">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout"
+                android:background="@drawable/custom_styles">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width = "150dp"
+                    android:layout_height = "150dp"
+                    android:layout_columnWeight = "1"
+                    android:layout_rowWeight = "1"
+                    app:cardElevation = "10dp"
+                    app:cardCornerRadius = "100dp"
+                    android:layout_margin = "12dp"
+                    >
+
+                <ImageView
+                    android:id="@+id/ppr"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_person" />
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/Ptext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textSize="28dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="60dp"
+                    android:background="@color/profileBackground">
+
+                <!--    <View
+                        android:layout_alignParentTop="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@drawable/custom_styles"/>-->
+
+                  <!--  <TextView
+                        android:text="Back to\nHome"
+                        style="@style/profileStyledBackButton" />-->
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    <include
+        layout="@layout/content_profile" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FontStyles"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="46dp">
+
+
+        <TextView
+            android:onClick="f1"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/font1"
+            android:text="style"
+            android:gravity="center_horizontal"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="46dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+
+                android:onClick="f2"
+                android:id="@+id/font2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font2"
+                android:text="style"
+                android:textSize="30dp" />
+
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="46dp">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+
+                    android:onClick="f3"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="style"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/font3"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="46dp">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+
+                        android:onClick="f4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font4"
+                        android:text="style"
+                        android:textSize="30dp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:layout_editor_absoluteX="144dp"
+                        tools:layout_editor_absoluteY="46dp">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:gravity="center_horizontal"
+                            android:onClick="f5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font5"
+                            android:text="style"
+                            android:textSize="30dp" />
+
+
+                        <LinearLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            tools:layout_editor_absoluteX="144dp"
+                            tools:layout_editor_absoluteY="46dp">
+
+<!--                            <TextView-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:onClick="f6"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:fontFamily="@font/font6"-->
+<!--                                android:text="style"-->
+<!--                                android:textSize="30dp" />-->
+
+
+
+                            <LinearLayout
+                                android:layout_marginTop="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                tools:layout_editor_absoluteX="144dp"
+                                tools:layout_editor_absoluteY="46dp">
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:gravity="center_horizontal"
+                                    android:onClick="f7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/font7"
+                                    android:text="style"
+                                    android:textSize="30dp" />
+
+
+
+
+                                <LinearLayout
+                                    android:layout_marginTop="20dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    tools:layout_editor_absoluteX="144dp"
+                                    tools:layout_editor_absoluteY="46dp">
+
+                                    <TextView
+                                        android:textColor="@color/black"
+                                        android:gravity="center_horizontal"
+                                        android:onClick="f8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/font8"
+                                        android:text="style"
+                                        android:textSize="30dp" />
+
+
+
+                                    <LinearLayout
+                                        android:layout_marginTop="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical"
+                                        tools:layout_editor_absoluteX="144dp"
+                                        tools:layout_editor_absoluteY="46dp">
+
+<!--                                        <TextView-->
+<!--                                            android:textColor="@color/black"-->
+<!--                                            android:gravity="center_horizontal"-->
+<!--                                            android:onClick="f9"-->
+<!--                                            android:layout_width="match_parent"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:fontFamily="@font/font9"-->
+<!--                                            android:text="style"-->
+<!--                                            android:textSize="30dp" />-->
+
+
+                                        <LinearLayout
+                                            android:layout_marginTop="20dp"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical"
+                                            tools:layout_editor_absoluteX="144dp"
+                                            tools:layout_editor_absoluteY="46dp">
+
+                                            <TextView
+                                                android:textColor="@color/black"
+                                                android:gravity="center_horizontal"
+                                                android:onClick="f10"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:fontFamily="@font/font10"
+                                                android:text="style"
+                                                android:textSize="30dp" />
+
+
+
+                                            <LinearLayout
+                                                android:layout_marginTop="20dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="vertical"
+                                                tools:layout_editor_absoluteX="144dp"
+                                                tools:layout_editor_absoluteY="46dp">
+
+<!--                                                <TextView-->
+<!--                                                    android:textColor="@color/black"-->
+<!--                                                    android:gravity="center_horizontal"-->
+<!--                                                    android:onClick="f11"-->
+<!--                                                    android:layout_width="match_parent"-->
+<!--                                                    android:layout_height="wrap_content"-->
+<!--                                                    android:fontFamily="@font/font11"-->
+<!--                                                    android:text="style"-->
+<!--                                                    android:textSize="30dp" />-->
+
+
+                                                <LinearLayout
+                                                    android:layout_marginTop="20dp"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:orientation="vertical"
+                                                    tools:layout_editor_absoluteX="144dp"
+                                                    tools:layout_editor_absoluteY="46dp">
+
+                                                    <TextView
+                                                        android:textColor="@color/black"
+                                                        android:gravity="center_horizontal"
+                                                        android:onClick="f12"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:fontFamily="@font/font12"
+                                                        android:text="style"
+                                                        android:textSize="30dp" />
+
+
+                                                    <LinearLayout
+                                                        android:layout_marginTop="20dp"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent"
+                                                        android:orientation="vertical"
+                                                        tools:layout_editor_absoluteX="144dp"
+                                                        tools:layout_editor_absoluteY="46dp">
+
+                                                        <TextView
+                                                            android:textColor="@color/black"
+                                                            android:gravity="center_horizontal"
+                                                            android:onClick="f13"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:fontFamily="@font/font13"
+                                                            android:text="style"
+                                                            android:textSize="30dp" />
+
+                                                        <LinearLayout
+                                                            android:layout_marginTop="20dp"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            tools:layout_editor_absoluteX="144dp"
+                                                            tools:layout_editor_absoluteY="46dp">
+
+                                                            <TextView
+                                                                android:textColor="@color/black"
+                                                                android:gravity="center_horizontal"
+                                                                android:onClick="f14"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="@font/font14"
+                                                                android:text="style"
+                                                                android:textSize="30dp" />
+
+
+
+
+
+                                                        </LinearLayout>
+
+                                                        <LinearLayout
+                                                            android:layout_marginTop="20dp"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            tools:layout_editor_absoluteX="144dp"
+                                                            tools:layout_editor_absoluteY="46dp">
+
+                                                            <TextView
+                                                                android:textColor="@color/black"
+                                                                android:gravity="center_horizontal"
+                                                                android:onClick="f15"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="@font/font15"
+                                                                android:text="style"
+                                                                android:textSize="30dp" />
+
+
+
+
+
+                                                        </LinearLayout>
+
+                                                        <LinearLayout
+                                                            android:layout_marginTop="20dp"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="match_parent"
+                                                            android:orientation="vertical"
+                                                            tools:layout_editor_absoluteX="144dp"
+                                                            tools:layout_editor_absoluteY="46dp">
+
+                                                            <TextView
+                                                                android:textColor="@color/black"
+                                                                android:gravity="center_horizontal"
+                                                                android:onClick="f16"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:fontFamily="@font/font16"
+                                                                android:text="style"
+                                                                android:textSize="30dp" />
+
+                                                            <LinearLayout
+                                                                android:layout_marginTop="20dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent"
+                                                                android:orientation="vertical"
+                                                                tools:layout_editor_absoluteX="144dp"
+                                                                tools:layout_editor_absoluteY="46dp">
+
+                                                                <TextView
+                                                                    android:textColor="@color/black"
+                                                                    android:gravity="center_horizontal"
+                                                                    android:onClick="f17"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:fontFamily="@font/font17"
+                                                                    android:text="style"
+                                                                    android:textSize="30dp" />
+
+
+
+
+
+                                                            </LinearLayout>
+
+
+                                                            <LinearLayout
+                                                                android:layout_marginTop="20dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent"
+                                                                android:orientation="vertical"
+                                                                tools:layout_editor_absoluteX="144dp"
+                                                                tools:layout_editor_absoluteY="46dp">
+
+                                                                <TextView
+                                                                    android:textColor="@color/black"
+                                                                    android:gravity="center_horizontal"
+                                                                    android:onClick="f18"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:fontFamily="@font/font18"
+                                                                    android:text="style"
+                                                                    android:textSize="30dp" />
+
+
+
+
+
+                                                            </LinearLayout>
+
+
+                                                            <LinearLayout
+                                                                android:layout_marginTop="20dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent"
+                                                                android:orientation="vertical"
+                                                                tools:layout_editor_absoluteX="144dp"
+                                                                tools:layout_editor_absoluteY="46dp">
+
+                                                                <TextView
+                                                                    android:textColor="@color/black"
+                                                                    android:gravity="center_horizontal"
+                                                                    android:onClick="f19"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:fontFamily="@font/font19"
+                                                                    android:text="style"
+                                                                    android:textSize="30dp" />
+
+
+
+
+
+                                                            </LinearLayout>
+
+                                                            <LinearLayout
+                                                                android:layout_marginTop="20dp"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="match_parent"
+                                                                android:orientation="vertical"
+                                                                tools:layout_editor_absoluteX="144dp"
+                                                                tools:layout_editor_absoluteY="46dp">
+
+                                                                <TextView
+
+                                                                    android:textColor="@color/black"
+                                                                    android:gravity="center_horizontal"
+                                                                    android:onClick="f20"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:fontFamily="@font/font20"
+                                                                    android:text="style"
+                                                                    android:textSize="30dp" />
+
+
+<!--                                                                <LinearLayout-->
+<!--                                                                    android:layout_marginTop="20dp"-->
+<!--                                                                    android:layout_width="match_parent"-->
+<!--                                                                    android:layout_height="match_parent"-->
+<!--                                                                    android:orientation="vertical"-->
+<!--                                                                    tools:layout_editor_absoluteX="144dp"-->
+<!--                                                                    tools:layout_editor_absoluteY="46dp">-->
+
+<!--                                                                    <TextView-->
+<!--                                                                        android:textColor="@color/black"-->
+<!--                                                                        android:gravity="center_horizontal"-->
+<!--                                                                        android:id="@+id/fas"-->
+<!--                                                                        android:layout_width="match_parent"-->
+<!--                                                                        android:layout_height="wrap_content"-->
+<!--                                                                        android:fontFamily="@font/font20"-->
+<!--                                                                        android:text="style33"-->
+<!--                                                                        android:textSize="30dp" />-->
+
+
+
+
+
+<!--                                                                </LinearLayout>-->
+
+
+
+
+                                                            </LinearLayout>
+
+
+
+
+
+
+                                                        </LinearLayout>
+
+
+
+
+                                                    </LinearLayout>
+
+
+
+                                                </LinearLayout>
+
+
+
+                                            </LinearLayout>
+
+
+                                        </LinearLayout>
+
+
+
+                                    </LinearLayout>
+
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

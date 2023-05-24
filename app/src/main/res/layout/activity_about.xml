@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8.0dip">
+
+      <!--  <LinearLayout
+            android:orientation="horizontal"
+            android:padding="1.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="65.0dip">
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingBottom="16.0dip"
+                android:paddingTop="16.0dip"
+                android:textColor="#505050"
+                android:layout_gravity="start|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/developer" />
+
+        </LinearLayout>-->
+
+
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:paddingBottom="16.0dip"
+            android:paddingTop="16.0dip"
+            android:textColor="#505050"
+            android:layout_gravity="start|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/follow_us" />
+
+
+
+    <!--    <LinearLayout
+            android:id="@+id/github"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp">
+
+
+
+
+
+
+
+
+        </LinearLayout>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37494747"></TableRow>
+
+
+        <LinearLayout
+            android:id="@+id/foinsta"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:minHeight="48dp"
+            android:paddingTop="8.0dip"
+            android:paddingBottom="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32.0dip">
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/follow_on_insta" />
+
+
+<!--
+
+            <LinearLayout
+                android:id="@+id/fotwitter"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/follow_on_twitter" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp">
+
+
+            <LinearLayout
+                android:id="@+id/fofb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/follow_on_fb"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more_apps" />
+
+            </LinearLayout>
+
+-->
+
+
+
+        </LinearLayout>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37494747"></TableRow>
+
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:paddingBottom="16.0dip"
+            android:paddingTop="16.0dip"
+            android:textColor="#505050"
+            android:layout_gravity="start|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37494747"></TableRow>
+
+
+        <LinearLayout
+
+
+
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:id="@+id/pp"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PPLCY" />
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:id="@+id/tou"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TOU" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:id="@+id/cs"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CS" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:id="@+id/ru"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RUS" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:id="@+id/war"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WAR" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/apps"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="DuplicateIds">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip"
+                android:id="@+id/shareabout"
+                >
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Share" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_marginTop="-5dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/VSN"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+            <!--android:src="@drawable/account"-->
+
+            <LinearLayout
+                android:id="@+id/versioncheck"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32.0dip"
+                android:orientation="vertical"
+                android:paddingTop="8.0dip"
+                android:paddingBottom="8.0dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/VSNC"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <!--   <TextView
+                       android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                       android:id="@+id/app_versiondfg"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/your_place_of_living" />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/about_bg">
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/innerermond"></ImageView>
+
+        </RelativeLayout>
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="394dp"
+            android:layout_marginTop="0dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/facebook" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/twitter" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/instgram"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/instgram" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/youtube"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/youtube"
+                        android:textSize="18dp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>-->
+
+

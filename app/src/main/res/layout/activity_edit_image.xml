@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <ja.burhanrashid52.photoeditor.PhotoEditorView
+        android:id="@+id/photoEditorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="120dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imgUndo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_undo"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgRedo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_redo"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintStart_toEndOf="@+id/imgUndo" />
+
+
+    <!--<ImageView
+        android:id="@+id/imgGallery"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_gallery"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintStart_toEndOf="@+id/imgRedo" />
+-->
+    <ImageView
+        android:id="@+id/userinfo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_baseline_account_circle_white"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--  <ImageView
+        android:id="@+id/imgPremium"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+
+
+        android:layout_marginBottom="80dp"
+        android:padding="8dp"
+
+        android:src="@drawable/crownb"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintEnd_toStartOf="@+id/imgClose" />-->
+
+
+    <ImageView
+        android:id="@+id/imgCamera"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_camera"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintEnd_toStartOf="@+id/imgNew"
+        app:layout_constraintStart_toEndOf="@+id/imgSave" />
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+
+
+        android:layout_marginBottom="80dp"
+        android:padding="8dp"
+
+        android:src="@drawable/ic_info"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintEnd_toStartOf="@+id/userinfo" />
+
+
+    <ImageView
+        android:id="@+id/imgNew"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_baseline_add_circle_outline"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintEnd_toStartOf="@+id/imgClose" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvConstraintTools"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="19dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/row_editing_tools" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFilterView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/tool_bg"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rvConstraintTools"
+        tools:listitem="@layout/row_filter_view" />
+
+    <!--   <ImageView
+        android:id="@+id/txtCurrentTool"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:singleLine="true"
+        android:src="@drawable/foto_title"
+
+
+        android:textColor="@android:color/primary_text_light_nodisable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />-->
+
+    <ImageView
+        android:id="@+id/imgSave"
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#99000000"
+        android:padding="8dp"
+        android:src="@drawable/ic_save"
+        app:layout_constraintBottom_toBottomOf="@+id/rvConstraintTools"
+        app:layout_constraintStart_toEndOf="@+id/imgRedo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/about_bg">
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/innerermond"></ImageView>
+
+        </RelativeLayout>
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="394dp"
+            android:layout_marginTop="0dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/facebook"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/facebook" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/twitter" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/instgram"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/instgram" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+
+                    <ImageView
+                        android:id="@+id/youtube"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/youtube"
+                        android:textSize="18dp" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+    </ScrollView>-->
